@@ -1,0 +1,26 @@
+.avatar {
+    border-radius: 50%;
+    background-color: #bada55;
+    color: #ffffff;
+    text-align: center;
+    /*padding: 7px;*/
+    border:#f2f2f2;
+    height: 30px;
+    width: 30px;
+    display: table;
+
+}
+img {
+    max-width: 100%;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: normal;
+}
+tr:nth-child(even) {
+    background: #CCC;
+}
+tr:nth-child(odd) {
+    background: #FFF;
+}

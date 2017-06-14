@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8">
+                <form class="form-inline">
+                    <fieldset>
+                        <legend>Add person</legend>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="file" class="form-control" id="file"
+                        </div>
+                        <div class="form-group">
+                            <select id="position" class="form-control">
+                                <option value="">Choose position</option>
+                                <option value="Junior developer">Junior developer</option>
+                                <option value="Senior developer">Senior developer</option>
+                            </select>
+                        </div>
+                        <button  type="submit" class="btn btn-primary">Add</button>
+
+                    </fieldset>
+
+                </form>
+                <div><h3>Filter</h3></div>
+                <div class="form-group">
+                    <select id="filter" class="form-control">
+                        <option value="">Choose position</option>
+                        <option value="Junior developer">Junior developer</option>
+                        <option value="Senior developer">Senior developer</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Position</th>
+                        <th>Avatar</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
